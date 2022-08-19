@@ -1,21 +1,20 @@
 # nvimrc
 
-Install nvim
+## Requirements
 
-Install the [paq package manager](https://github.com/savq/paq-nvim)
+*  nvim>=0.7
 
-Clone and copy all files into `~/.config/nvim/`
+Install the following packages:
 
-Open `nvim` and run `:PaqInstall`
+- git
+- ripgrep
+- gcc
+- g++
+- golang
+- make
 
-LSPs need servers to work:
+## Installation
 
-- [microsoft/pyright](https://github.com/microsoft/pyright)
-- [mfussenegger/nvim-jdtls](https://github.com/mfussenegger/nvim-jdtls)
-- [theia-ide/typescript-language-server](https://github.com/theia-ide/typescript-language-server)
+Copy all files into `~/.config/nvim/`
 
-Also install formatters:
-
-- [prettier](https://prettier.io/docs/en/install.html)
-- [google-java-format](https://github.com/google/google-java-format)
-
+Open `nvim` and the plugin installation will begin. If there are no errors, nvim will close itself. Simply, reopen and use away.
